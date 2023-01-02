@@ -3,7 +3,8 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const cors = require("cors");
 
-const apiKey = process.env.VAR_NAME;
+// const apiKey = "";
+const apiKey = process.env.API_KEY;
 
 const configuration = new Configuration({
   organization: "org-5OJOeUXAYacvdSHYYEAHrSSX",
